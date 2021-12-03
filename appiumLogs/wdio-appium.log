@@ -1,0 +1,156 @@
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638523854484 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[35m[BaseDriver][39m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10.0",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel_XL",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:appWaitActivity": "*"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 254a1fe7-20bf-4cbc-af2d-627e7870d480
+[35m[BaseDriver][39m Using local app 'C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\apps\Android-NativeDemoApp-0.4.0.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638523854731 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\adb.js:55:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:108:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:193:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:326:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:223:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\lib\appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m328 ms - 933[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638523854823 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[35m[BaseDriver][39m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10.0",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel_XL",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:appWaitActivity": "*"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 4bd32158-2fbe-4b23-8c18-4e03badba249
+[35m[BaseDriver][39m Using local app 'C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\apps\Android-NativeDemoApp-0.4.0.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638523854839 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\adb.js:55:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:108:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:193:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:326:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:223:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\lib\appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m19 ms - 933[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638523854845 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[35m[BaseDriver][39m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10.0",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel_XL",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:appWaitActivity": "*"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: d30fa360-2dcd-4ec2-8a13-6c55783ddc6e
+[35m[BaseDriver][39m Using local app 'C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\apps\Android-NativeDemoApp-0.4.0.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638523854860 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\adb.js:55:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:108:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:193:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:326:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:223:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\lib\appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m17 ms - 933[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},null,{"alwaysMatch":{"appium:platformName":"Android","appium:platformVersion":"10.0","appium:deviceName":"Pixel_XL","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:newCommandTimeout":240,"appium:app":"C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk","appium:noReset":true,"appium:appWaitActivity":"*"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638523854868 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[35m[BaseDriver][39m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10.0",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Pixel_XL",
+[debug] [35m[BaseDriver][39m     "appium:orientation": "PORTRAIT",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "UiAutomator2",
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 240,
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Users\\chris\\Downloads\\test-mobile-native\\test-mobile-native\\apps\\Android-NativeDemoApp-0.4.0.apk",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:appWaitActivity": "*"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: d3698ed6-a24c-4654-94b3-2084728d1e3c
+[35m[BaseDriver][39m Using local app 'C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\apps\Android-NativeDemoApp-0.4.0.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638523854881 (09:30:54 GMT+0000 (Greenwich Mean Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+[debug] [35m[W3C][39m     at requireSdkRoot (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\helpers.js:36:11)
+[debug] [35m[W3C][39m     at Function.createADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-adb\lib\adb.js:55:23)
+[debug] [35m[W3C][39m     at Object.createBaseADB (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:108:20)
+[debug] [35m[W3C][39m     at Object.getDeviceInfoFromCaps (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-android-driver\lib\android-helpers.js:193:29)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:326:40)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:223:18)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\chris\Downloads\test-mobile-native\test-mobile-native\node_modules\appium\lib\appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m16 ms - 933[39m
+[35m[HTTP][39m [90m[39m
